@@ -1,0 +1,195 @@
+@charset "utf-8";
+* {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+body {
+	background-color: #000000;
+}
+
+body,td,th {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-weight: bold;
+}
+h1 {
+	font-size: x-large;
+	color: #FF0;
+	margin-top: 20px;
+}
+h2 {
+	font-size: large;
+	color: #FC3;
+}
+h3 {
+	font-size: medium;
+	color: #FC9;
+}
+p {
+	color: #FFFF33;
+}
+table {
+	margin-top: 10px;
+	border: solid thin #FF0;
+	border-collapse: collapse;
+}
+th {
+	background-color: #295A33;
+	color: #FF0;
+	padding: 5px 0;
+	border-bottom: solid thin #FF0;
+}
+td {
+	padding: 3px 2px 1px 10px;
+	vertical-align: top;
+	border-bottom: groove thin #FF0;
+}
+a:link {
+	color: #F90;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited {
+	color: #FF3;
+	font-weight: normal;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#centerwrap {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header {
+	height: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+#header img {
+	float: left;
+	margin-right: 10px;
+}
+#social {
+	float: right;
+	margin-top: -50px;
+	margin-right: 30px;
+}
+
+#navcontainer {
+	height: 60px;
+}
+#navcontainer ul
+{
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 0;
+	margin-top: 0;
+	/* cancels gap caused by top padding in Opera 7.54 */
+	margin-left: 0;
+	background-color: #295A33;
+	color: #FF0;
+	width: 100%;
+	font-family: Arial,Helvetica,sans-serif;
+	line-height: 1em;
+	/* fixes Firefox 0.9.3 */
+}
+
+#navcontainer ul li
+{
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 5px;
+	/* matches link padding except for left and right */
+	padding-top: 5px;
+	font-size: .8em;
+}
+
+#navcontainer ul li a
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #FF0;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navcontainer ul li a:hover
+{
+background-color: #369;
+color: white;
+}
+
+#navcontainer #active { border-left: 1px solid #fff; }
+#navcontainer ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+
+#leftcol {
+	width: 320px;
+	float:left;
+}
+#rightcol {
+	width: 570px;
+	padding-left: 10px;
+	padding-top: 50px;
+	float: right;
+}
+#thbrow {
+	margin-top: 15px;
+	line-height: 0;
+}
+#thbrow img {
+	margin: 0 5px 5px 0;
+}
+#thbcol {
+	width: 175px;
+	float: left;
+	line-height: 0;
+}
+#thbcol img {
+	margin: 0 0 5px 0;
+}
+#mainimage {
+	width: 600px;
+	height: 450px;
+	padding: 37px 50px;
+	float: right;
+}
+#contactform td {
+	border-width: 0px;
+	padding: 7px;
+}
+#footer {
+	background-color: #295A33;
+	text-align: center; 
+	height: 40px;
+	padding-top: 5px;
+	padding-bottom: 3px; 
+	clear: both;
+}
+.credits {
+	font-size: small;
+	font-style: italic;
+}
+.centerit {
+	text-align: center;
+}
+.highlight_schedule {
+	background-color: #900;
+}
